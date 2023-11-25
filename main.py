@@ -3,7 +3,7 @@ from twitchio.ext import commands, routines
 
 token = ''
 
-
+#Make sure the account who are running this has permissions. Check in the Images folder for the pic
 class Bot(commands.Bot):
 
     def __init__(self):
@@ -27,7 +27,8 @@ class Bot(commands.Bot):
                 emote_mode = True
             await broadcaster.update_chat_settings(token=token, moderator_id=self.user_id, emote_mode=emote_mode)
 
-
+#The client id in this function is twitch's own id. Do not remove or replace it.
+#This function are using graph SQL from twitch
 def checkIfUserIsStreaming(username):
     url = "https://gql.twitch.tv/gql"
     query = "query {\n  user(login: \"" + username + "\") {\n    stream {\n      id\n    }\n  }\n}"

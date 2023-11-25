@@ -17,6 +17,7 @@ This Python script serves as a Twitch bot using the twitchio library, designed t
 3) Install the required packages:
 `pip install -r requirements.txt`
 4) open the script and replace the token variable with your Twitch OAuth token.
+5) Make sure that your token has the scopes permissions listed below. You can use https://twitchtokengenerator.com/ for create token! ![](Images/Permissions.png)
 ## Usage
 1) Run the bot:
 `python your_twitch_bot.py`
