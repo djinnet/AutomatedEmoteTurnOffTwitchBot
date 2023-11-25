@@ -17,7 +17,6 @@ This Python script serves as a Twitch bot using the twitchio library, designed t
 3) Install the required packages:
 `pip install -r requirements.txt`
 4) open the script and replace the token variable with your Twitch OAuth token.
-5) Replace the client-id in the checkIfUserIsStreaming function with your Twitch application's client ID.
 ## Usage
 1) Run the bot:
 `python your_twitch_bot.py`
