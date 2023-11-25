@@ -35,6 +35,6 @@ This Twitch bot script is licensed under the MIT License - see the LICENSE file 
 
 ## Acknowledgments
 * Thanks to the developers of the twitchio library for providing an easy-to-use interface for Twitch integration.
-* Special thanks to the Twitch community for inspiration and support.
+* Special thanks to the PirateSoftware community for inspiration and support.
 ## Disclaimer
 This script is provided as-is without any warranty. Use it responsibly and ensure compliance with Twitch's terms of service and community guidelines.
